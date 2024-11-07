@@ -1,0 +1,53 @@
+
+.Tables {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.Tables h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.table-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+
+
+form input {
+  padding: 5px;
+  font-size: 16px;
+}
+
+form button {
+  margin-top: 10px;
+}
+.home-admin {
+  display: flex;
+  width: 100%;
+  height: 100%vh;
+  align-items: center;
+  justify-content: center;
+}

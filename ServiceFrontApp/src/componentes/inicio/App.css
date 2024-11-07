@@ -1,0 +1,108 @@
+/* Mobile-first styles (default in column) */
+.app {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  font-family: Arial, sans-serif;
+}
+.btn-outline-home {
+  background-color: #154a73;
+}
+
+#login {
+  background-color: #154a73;
+}
+#singup{
+  background-color: #154a73;
+}
+
+
+.left-side,
+.right-side {
+  width: 100%;
+  height: auto; 
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffffb5;
+  padding: 20px; 
+}
+
+.logo {
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+.right-side {
+  
+  backdrop-filter: blur(1px);
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top-buttons {
+  display: flex;
+  justify-content: center; /* Botones centrados en móviles */
+  gap: 10px;
+}
+
+.about-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  backdrop-filter: blur(5px);
+  padding: 2%;
+  background-color: #000000a3;
+  border-radius: 25px;
+}
+
+.about-us h2 {
+  font-size: 100%;
+}
+
+.about-us p {
+  font-size: 16px;
+  text-align: center;
+}
+.btn-outline-home:hover {
+  background-color: #005bb5;
+}
+
+@media screen and (min-width: 768px) {
+  .app {
+    flex-direction: row;
+    height: 100vh; 
+  }
+
+  .left-side,
+  .right-side {
+    width: 50%; 
+    height: 100vh;
+  }
+
+  .left-side {
+    padding: 0; /* Eliminamos el padding en pantallas grandes */
+  }
+
+
+  .top-buttons {
+    justify-content: flex-end; /* Botones a la derecha en pantallas grandes */
+  }
+
+  .about-us h2 {
+    font-size: 120%; /* Aumentamos el tamaño de la fuente */
+  }
+
+  .about-us p {
+    font-size: 18px;
+  }
+}
+

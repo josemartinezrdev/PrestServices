@@ -1,0 +1,57 @@
+.crear-servicio-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #333333cc;
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+}
+
+.crear-servicio-container h2 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.crear-servicio-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.crear-servicio-container input,
+.crear-servicio-container textarea {
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  background-color: #ffffff;
+  color: #333;
+}
+
+.crear-servicio-container textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+}
+
+.crear-servicio-container button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.crear-servicio-container button:hover {
+  background-color: #45a049;
+}

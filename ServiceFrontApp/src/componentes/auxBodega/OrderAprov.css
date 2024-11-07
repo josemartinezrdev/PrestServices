@@ -1,0 +1,84 @@
+.orderaprovs-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  width: 70%;
+  max-height: 98vh;
+}
+
+.orderaprov-card {
+  background-color: #333333cc;
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.orderaprov-card h3 {
+  margin-top: 0;
+  color: #fff;
+}
+
+.orderaprov-card p {
+  color: #ccc;
+  flex-grow: 1;
+}
+
+.dispatch-button {
+  background-color: #0545b1;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  position: absolute; /* Position the button absolutely within the container */
+  top: 20px;
+  right: 200px;
+  width: 15%;
+  height: 5%;
+  transition: background-color 0.3s;
+}
+
+.dispatch-button.requested {
+  background-color: #ff0000;
+}
+
+.dispatch-button:hover {
+  opacity: 0.8;
+}
+
+.orderaprov-card button:hover {
+  opacity: 0.8;
+}
+.divider {
+  border: none;
+  border-top: 5px solid #fff;
+  margin: 10px 0;
+  opacity: 0.8;
+  border-radius: 25px;
+}
+.selectTransaccion {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: white;
+  padding: 5px;
+  border-radius: 4px;
+  width: 15%;
+  height: 5%;
+}
+
+.selectTransaccion select {
+  border: none;
+  background: transparent;
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+}

@@ -1,0 +1,111 @@
+.suppliers-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  width: 70%;
+  max-height: 98vh;
+}
+
+.supplier-card {
+  background-color: #333;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.supplier-card h3 {
+  margin-top: 0;
+  color: #fff;
+}
+
+.supplier-card p {
+  color: #ccc;
+  flex-grow: 1;
+}
+
+.supplier-card button {
+  background-color: #0545B1;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  max-width: 200px;
+  transition: background-color 0.3s;
+
+  
+  
+}
+
+.supplier-card button.requested {
+  background-color: #f44336;
+}
+
+.supplier-card button:hover {
+  opacity: 0.8;
+}
+.divider {
+    border: none;
+    border-top: 5px solid #fff; 
+    margin: 10px 0;
+    opacity: 0.8; 
+    border-radius: 25px;
+  }
+
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    max-width: 90%;
+    text-align: center;
+  }
+  
+  .modal-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .modal-section select,
+  .modal-section input {
+    width: 100px;
+    padding: 5px;
+  }
+  
+  .modal-content button {
+    background-color: #0545B1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .modal-content button:hover {
+    background-color: #003a8c;
+  }

@@ -1,0 +1,44 @@
+.asignar-orden-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #333333cc;
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+}
+
+.asignar-orden-container h2 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.asignar-orden-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.asignar-orden-container input {
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  background-color: #ffffff;
+  color: #333;
+}
+
+.asignar-orden-container button {
+  padding: 10px;
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.asignar-orden-container button:hover {
+  background-color: #1976D2;
+}

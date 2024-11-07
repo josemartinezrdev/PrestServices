@@ -1,0 +1,67 @@
+.approvals-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  padding: 20px;
+  gap: 20px;
+  width: 80%;
+  height: 100%;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  margin-top: 1%;
+}
+
+.approval-card {
+  background-color: #333333cc;
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.approval-card h3 {
+  margin-top: 0;
+  color: #fff;
+}
+
+.approval-card p {
+  color: #ccc;
+}
+
+.approval-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.approval-buttons button {
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: opacity 0.3s;
+  width: 100%;
+}
+
+.approval-buttons button:hover {
+  opacity: 0.8;
+}
+
+.approval-buttons .approve {
+  background-color: #4caf50;
+}
+
+.approval-buttons .cancel {
+  background-color: #f44336;
+}
+
+.approval-buttons .finalize {
+  background-color: #008cba;
+}

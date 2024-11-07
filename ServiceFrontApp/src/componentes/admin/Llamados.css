@@ -1,0 +1,10 @@
+.llamados-select {
+    font-size: 16px; /* Aumenta el tamaño de la fuente */
+    padding: 10px; /* Agrega espacio dentro del select */
+    height: 40px; /* Establece una altura específica */
+    border: 1px solid #ccc; /* Bordes */
+    border-radius: 4px; /* Bordes redondeados */
+    background-color: #f9f9f9; /* Color de fondo */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el select */
+    width: 100%;
+  }

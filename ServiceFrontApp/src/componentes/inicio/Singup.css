@@ -1,0 +1,102 @@
+
+
+.content-singup {
+  max-width: 600px; /* Aumentar el ancho máximo del contenedor */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 90%;
+  margin: 0 auto;
+  min-width: 500px;
+  backdrop-filter: blur(10px);
+}
+
+
+/* Form General */
+
+.title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #00bfff;
+}
+
+.message {
+  font-size: 14.5px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.form-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+/* Form Group and Input Styling */
+.form-group {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  position: relative;
+  display: block;
+}
+
+.input {
+  background-color: #333;
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: 1px solid rgba(105, 105, 105, 0.4);
+  border-radius: 10px;
+  font-size: medium;
+}
+
+.form-group label .input + span {
+  color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  font-size: 0.9em;
+  transition: 0.3s ease;
+}
+
+/* Placeholder Handling */
+.input:focus + span,
+.input:not(:placeholder-shown) + span {
+  top: -10px;
+  font-size: 0.75em;
+  color: #00bfff;
+  font-weight: 600;
+}
+
+/* Select Styling */
+select.form-control {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(105, 105, 105, 0.4);
+}
+
+/* Submit Button */
+.submit {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  background-color: #00bfff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit:hover {
+  background-color: #00bfff96;
+}

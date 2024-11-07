@@ -1,0 +1,64 @@
+/* Signup.css */
+
+
+.form-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+/* .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group label {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+} */
+
+/* .form-group input,
+.form-control {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+} */
+
+.form-control {
+  width: 100%;
+}
+
+.content {
+  max-width: 600px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: #333333cc;
+  backdrop-filter: blur(10px);
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 90%;
+  margin: 0 auto;
+  min-width: 500px;
+  max-height: 70vh;
+}
+
+/* .btn {
+  padding: 15px 25px;
+  font-size: 18px;
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  max-width: 200px;
+} */
+
+/* .btn-primary:hover {
+  background-color: #005bb5;
+} */

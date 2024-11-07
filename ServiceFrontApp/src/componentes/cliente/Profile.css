@@ -1,0 +1,83 @@
+.profile-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  padding: 20px;
+  color: #fff;
+  width: 70%;
+}
+
+.profile-info,
+.profile-form {
+  background-color: #333333cc;
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  padding: 20px;
+  width: 45%;
+}
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+  font-size: 1.1rem;
+}
+
+.profile-info h2 {
+  margin-top: 0;
+}
+.profile-info button {
+  width: 50%;
+}
+
+.update-account {
+  background-color: #f43838;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: opacity 0.3s;
+}
+
+/* .profile-form .form-group {
+  margin-bottom: 15px;
+} */
+
+.profile-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.profile-form input,
+.profile-form select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.profile-form .update {
+  background-color: #008cba;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: opacity 0.3s;
+}
+
+.update-account:hover,
+.profile-form .update:hover {
+  opacity: 0.8;
+}

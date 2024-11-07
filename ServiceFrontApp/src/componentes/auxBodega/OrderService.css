@@ -1,0 +1,86 @@
+.orderservice-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    width: 70%;
+    max-height: 98vh;
+  }
+  
+  .orderservice-card {
+    background-color: #333;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .orderservice-card h3 {
+    margin-top: 0;
+    color: #fff;
+  }
+  
+  .orderservice-card p {
+    color: #ccc;
+    flex-grow: 1;
+  }
+  
+  .orderservice-card button {
+    background-color: #0545B1;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    max-width: 200px;
+    transition: background-color 0.3s;
+  
+    
+    
+  }
+  
+  .orderservice-card button.requested {
+    background-color: #f44336;
+  }
+  
+  .orderservice-card button:hover {
+    opacity: 0.8;
+  }
+  .divider {
+      border: none;
+      border-top: 5px solid #fff; 
+      margin: 10px 0;
+      opacity: 0.8; 
+      border-radius: 25px;
+    }
+  
+    .selectService {
+      display: flex;
+      justify-content: center;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background-color: white;
+      padding: 5px;
+      border-radius: 4px;
+      width: 15%;
+      height: 5%;
+    }
+    
+    .selectService select {
+      
+      border: none;
+      background: transparent;
+      font-size: 16px;
+      color: #333;
+      cursor: pointer;
+    }
+    
+  
